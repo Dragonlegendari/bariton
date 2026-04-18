@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "baritone.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinMinecraftClient"
+  ],
+  "client": [
+    "MixinClientPlayerEntity",
+    "MixinWorld"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
