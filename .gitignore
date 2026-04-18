@@ -8,18 +8,35 @@ build/
 dist/
 target/
 
-# IDE files
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
+*.iml
+*.ipr
+*.iws
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 ```
