@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "baritone",
+  "version": "${version}",
+  "name": "Baritone",
+  "description": "A generic pathfinding, machine control and automation system for Minecraft. Unofficial build for 1.21.11",
+  "authors": [
+    "Cabaletta Team",
+    "Community Maintainer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cabaletta/baritone",
+    "sources": "https://github.com/cabaletta/baritone"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/baritone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "baritone.BaritoneLoader"
+    ]
+  },
+  "mixins": [
+    "baritone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21"
+  },
+  "breaks": {
+    "optifine": "*"
+  }
+}
